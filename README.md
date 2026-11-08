@@ -6,19 +6,20 @@ This public repository is the distribution location for desktop installers, chec
 
 ## Downloads
 
-[Open the releases page](https://github.com/alecscodehub/onduty.one-releases/releases)
+Installers for **v0.2.0**. Choose your operating system and processor:
 
-Published versions include the following installers:
-
-| Platform | Installer |
+| Your computer | Download |
 | --- | --- |
-| macOS, Apple Silicon | `.dmg` |
-| macOS, Intel | `.dmg` |
-| Windows x64 | `.exe` and `.msi` |
-| Debian / Ubuntu x64 | `.deb` |
-| Linux x64 | `.AppImage` |
+| Mac — Apple Silicon (M-series) | [Download .dmg](https://github.com/alecscodehub/onduty.one-releases/releases/download/v0.2.0/macos-arm64-onduty.one_0.2.0_aarch64.dmg) |
+| Mac — Intel | [Download .dmg](https://github.com/alecscodehub/onduty.one-releases/releases/download/v0.2.0/macos-x64-onduty.one_0.2.0_x64.dmg) |
+| Windows — x64 | [Download .exe](https://github.com/alecscodehub/onduty.one-releases/releases/download/v0.2.0/windows-x64-onduty.one_0.2.0_x64-setup.exe) |
+| Debian / Ubuntu — x64 | [Download .deb](https://github.com/alecscodehub/onduty.one-releases/releases/download/v0.2.0/linux-x64-onduty.one_0.2.0_amd64.deb) |
 
-Choose the installer for your operating system and architecture. GitHub's automatically generated **Source code** archives contain only the files in this download repository; they are not application installers or the app's private source code.
+Other formats: [Windows MSI](https://github.com/alecscodehub/onduty.one-releases/releases/download/v0.2.0/windows-x64-onduty.one_0.2.0_x64_en-US.msi) · [Linux AppImage](https://github.com/alecscodehub/onduty.one-releases/releases/download/v0.2.0/linux-x64-onduty.one_0.2.0_amd64.AppImage) · [SHA-256 checksums](https://github.com/alecscodehub/onduty.one-releases/releases/download/v0.2.0/SHA256SUMS.txt).
+
+[All releases](https://github.com/alecscodehub/onduty.one-releases/releases). Downloads are public; no GitHub account is required. Application source remains private. These preview installers do not have production signing/notarization.
+
+GitHub’s generated **Source code** archives contain only this download repository’s documentation, not the application source or installers.
 
 ## Licensing
 
