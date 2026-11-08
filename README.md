@@ -8,7 +8,7 @@ This public repository is the distribution location for desktop installers, chec
 
 [Open the releases page](https://github.com/alecscodehub/onduty.one-releases/releases)
 
-No installers have been published in this repository yet. Release publishing from the private build workflow still needs to be connected. Once published, the releases page will offer:
+Published versions include the following installers:
 
 | Platform | Installer |
 | --- | --- |
@@ -26,4 +26,4 @@ onduty.one is proprietary software. Public availability of installers does not m
 
 The app provides a 90-day evaluation. After the evaluation, a valid issued license is required for continued authorized use. Monitoring keeps working while a persistent **No license — trial expired** notice is shown. Personal licenses can be issued free for personal, noncommercial use; business use requires a commercial license.
 
-The individual licensor is Ionut Alexandru Curiman Caluianu. Request a license at **alecsmanagement@gmail.com**, or use **License → Request a license** in the app. The agreement is available in the app's License screen.
+The individual licensor is Ionut Alexandru Curiman Caluianu. Request a license at **alecsmanagement@gmail.com**, or use **License → Request a license** in the app. The agreement is available in the app's License screen and in [EULA.md](EULA.md).
