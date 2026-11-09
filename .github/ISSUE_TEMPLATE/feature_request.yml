@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest an improvement to onduty.one.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check [existing requests](https://github.com/alecscodehub/onduty.one-releases/issues?q=is%3Aissue+label%3Aenhancement) first.
+        This request will be public. Use fictional examples and leave out private Grafana, customer and licensing information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What are you trying to do, and what makes it difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
+      description: Describe the behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or additional context
+      description: Optional workarounds, examples or affected platforms.

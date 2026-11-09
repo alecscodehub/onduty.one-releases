@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: License requests and private contact
+    url: https://github.com/alecscodehub/onduty.one-releases#licensing
+    about: Request a license or find the publisher's email. Do not post license files or credentials in public issues.

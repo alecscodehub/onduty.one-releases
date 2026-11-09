@@ -21,6 +21,12 @@ Other formats: [Windows MSI](https://github.com/alecscodehub/onduty.one-releases
 
 GitHub’s generated **Source code** archives contain only this download repository’s documentation, not the application source or installers.
 
+## Bugs and feature requests
+
+[Report a bug](https://github.com/alecscodehub/onduty.one-releases/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/alecscodehub/onduty.one-releases/issues/new?template=feature_request.yml) · [Browse existing issues](https://github.com/alecscodehub/onduty.one-releases/issues)
+
+Anyone with a GitHub account can submit an issue here; access to the private source repository is not required. Downloads remain available without signing in. Include your app version, operating system, reproduction steps and expected behavior when reporting a bug. Reports are public: remove credentials, license files and private data from logs and screenshots. For security-sensitive reports, use **alecsmanagement@gmail.com** privately.
+
 ## Licensing
 
 onduty.one is proprietary software. Public availability of installers does not make it open source or grant redistribution rights.

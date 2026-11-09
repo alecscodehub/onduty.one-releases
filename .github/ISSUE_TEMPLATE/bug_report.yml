@@ -1,0 +1,69 @@
+name: Bug report
+description: Report a problem with the desktop app or its installers.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check [existing issues](https://github.com/alecscodehub/onduty.one-releases/issues) before reporting a duplicate.
+        This report will be public. Remove tokens, passwords, license files, private URLs and customer data from text, logs and screenshots.
+        Send security-sensitive details privately to alecsmanagement@gmail.com instead.
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Enter the installed version or the version of the installer that failed.
+      placeholder: "For example: 0.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS - Apple Silicon
+        - macOS - Intel
+        - Windows x64
+        - Linux x64
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system version
+      description: Include your Linux distribution and desktop environment where relevant.
+      placeholder: "For example: Ubuntu 24.04 / GNOME"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Describe the actions that lead to the problem, using fictional or redacted data.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include any error message after removing sensitive information.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional redacted logs or screenshots. For connection or alert problems, include Grafana Cloud/self-hosted and its version if known. Never attach credentials, license files or your app database.
